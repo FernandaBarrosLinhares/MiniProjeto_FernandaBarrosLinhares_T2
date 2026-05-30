@@ -28,5 +28,28 @@ pip install -r requirements.txt
 
 5. Certifique-se de que o arquivo `Base Varejo.csv` esteja dentro da pasta `data`.
 
-```
-```
+
+## Etapas do projeto
+
+### Limpeza de Dados
+
+Nesta etapa foi realizada a limpeza da base de dados, incluindo:
+
+- Remoção de colunas totalmente vazias (Unnamed)
+- Identificação e remoção de registros duplicados
+- Tratamento de valores ausentes na coluna PR_CAT
+- Padronização de categorias inconsistentes (ex: "#N/D")
+- Conversão da coluna DATA para formato datetime
+
+#### Decisões de Tratamento
+
+- Duplicatas completas foram removidas para evitar distorções nas análises.
+- Valores ausentes em PR_CAT foram preenchidos com "SEM CATEGORIA".
+- Categorias inválidas foram padronizadas para manter consistência dos dados.
+- A coluna DATA foi convertida para datetime para permitir análises temporais.
+
+#### Resultado
+
+Após a limpeza, a base de dados ficou consistente e preparada para análises estatísticas e agrupamentos, garantindo maior confiabilidade nos resultados.
+
+
