@@ -53,3 +53,18 @@ Nesta etapa foi realizada a limpeza da base de dados, incluindo:
 Após a limpeza, a base de dados ficou consistente e preparada para análises estatísticas e agrupamentos, garantindo maior confiabilidade nos resultados.
 
 
+### Análise Estatística da Coluna CL_FHL
+
+A coluna CL_FHL representa a quantidade de filhos dos clientes.
+
+- A média foi de aproximadamente 1,15 filhos por cliente.
+- A mediana foi igual a 0, indicando que pelo menos metade dos clientes não possui filhos.
+- A moda também foi 0, confirmando que a quantidade mais frequente é nenhum filho.
+- O valor mínimo encontrado foi 0 e o máximo foi 4 filhos.
+- O desvio padrão de 1,42 indica uma dispersão moderada dos dados em relação à média.
+- Os quartis mostram que:
+  - 25% dos clientes possuem até 0 filhos;
+  - 50% dos clientes possuem até 0 filhos;
+  - 75% dos clientes possuem até 2 filhos.
+
+Esses resultados indicam que a maior parte dos clientes possui poucos ou nenhum filho.
